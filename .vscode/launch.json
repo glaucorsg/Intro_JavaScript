@@ -4,11 +4,12 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\glauc\\Documents\\DIGITAL INNOVATION ONE\\Projetos\\WebDev\\Intro_JavaScript\\index.html"
+            "file": "/home/glaucorsg/Documentos/Digital Innovation One/Projetos/Html developer/Intro_JavaScript/index.html"
         }
     ]
 }

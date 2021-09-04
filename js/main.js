@@ -1,7 +1,79 @@
-var d = new Date();
+function clicou ()
+{
+    document.getElementById("agradecimento").innerHTML = "<i>Obrigado por clicar</i>";
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar()
+{
+    window.open("https:www.github.com/glaucorsg"); //Abre em uma nova janela
+    //window.location.href = "https:www.github.com/glaucorsg"; //Abre na mesma janela
+}
+
+function trocar (elemento)
+{
+    elemento.innerHTML = "Obrigado por passa o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passa o mouse"
+    //alert("trocar texto");
+}
+
+function voltar (elemento)
+{
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+
+function load () 
+{
+    alert("Página carregada");
+}
+
+function funcaoChage(elemento)
+{
+    console.log(elemento.value)
+}
+
+function soma (n1, n2)
+{
+    return n1 + n2;
+}
+
+/*function setReplace (frase, nome, novoNome)
+{
+    return frase.replace(nome, novoNome);
+}
+*/
+
+function validaIdade(idade)
+{
+    var validar;
+    if (idade >= 18)
+    {
+        validar = true;
+    }
+    
+    else
+    {
+        validar = false;
+    }
+    
+    return validar
+}
+
+/*
+var idade = prompt("Qual a sua idade?")
+console.log(validaIdade(idade));
+*/
+
+//alert (soma(15, 12));
+//alert (setReplace("Bom dia João", "João", "Maria"));
+
+
+/*var d = new Date();
 alert(d.getDay());
 alert(d.getMonth()+1);
 alert(d.getFullYear());
+*/
 
 /*for (count = 0; count < 5; count++)
     {
